@@ -1,3 +1,4 @@
+// Array containing film data and their respective characteristics (violence, action, romance, comedy)
 // Array contendo os dados dos filmes e suas respectivas características (violência, ação, romance, comédia)
 const movies = [
   {
@@ -107,7 +108,7 @@ document.getElementById("movie-form").addEventListener("submit", function (e) {
   // Impede o comportamento padrão de envio do formulário (recarregar a página)
   e.preventDefault();
 
-  // Get the values ​​entered by the user in the input fields (violence, action, romance, comedy)
+  // It get the values ​​entered by the user in the input fields (violence, action, romance, comedy)
   // Obtém os valores inseridos pelo usuário nos campos de entrada (violência, ação, romance, comédia)
   const violence = parseFloat(document.getElementById("violence").value);
   const action = parseFloat(document.getElementById("action").value);
@@ -135,7 +136,7 @@ function getRecommendedMovie(userPrefs) {
   let nearestMovie = null;
   let nearestDistance = Infinity; // We initialize the distance to infinity to ensure that any film is smaller | Inicializamos a distância como infinito para garantir que qualquer filme seja menor
 
-  //
+  // Iterates over all movies available in the `movies` array
   // Itera sobre todos os filmes disponíveis no array `movies`
   movies.forEach((movie) => {
     // Calculates the Euclidean distance between movie features and user preferences
@@ -147,15 +148,15 @@ function getRecommendedMovie(userPrefs) {
         Math.pow(movie.comedy - userPrefs.comedy, 2)
     );
 
-    //
+    // If the calculated distance is less than the shortest distance found so far, we update the shortest distance and the closest movie
     // Se a distância calculada for menor que a menor distância encontrada até agora, atualizamos a menor distância e o filme mais próximo
     if (distance < nearestDistance) {
       nearestDistance = distance;
-      nearestMovie = movie; // Atualiza o filme recomendado para o atual
+      nearestMovie = movie; // Atualiza o filme recomendado para o atual | Updates the recommended movie to the current one
     }
   });
 
-  //
+  // Returns the closest movie (with the smallest distance)
   // Retorna o filme mais próximo (com a menor distância)
   return nearestMovie;
 }
