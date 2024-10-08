@@ -1,6 +1,6 @@
 # English
 
-### Movie Recommendation System with KNN
+# Movie Recommendation System with KNN
 
 This project is a movie recommendation system based on the K-Nearest Neighbors (KNN) technique. Developed with HTML, CSS, and JavaScript, the application allows users to input their genre preferences in a form and receive a movie recommendation based on characteristics such as violence, action, romance, and comedy.
 
@@ -20,15 +20,9 @@ The system utilizes a dataset of movies, each with its associated characteristic
 - **CSS**: User interface styling.
 - **JavaScript**: Recommendation logic and DOM manipulation.
 
-## How to Use
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your browser.
-3. Fill in the preference fields and click "Submit" to receive a movie recommendation.
-
 # Portuguese
 
-## Sistema de Recomendação de Filmes com KNN
+# Sistema de Recomendação de Filmes com KNN
 
 Este projeto acadêmico, é um sistema de recomendação de filmes baseado na técnica K-Nearest Neighbors (KNN). Desenvolvido com HTML, CSS e JavaScript, o aplicativo permite que os usuários insiram suas preferências de gênero em um formulário e receba uma recomendação de filme com base em características como violência, ação, romance e comédia.
 
@@ -47,9 +41,3 @@ O sistema utiliza um conjunto de dados de filmes, cada um com suas característi
 - **HTML**: Estrutura da página e formulários.
 - **CSS**: Estilização da interface do usuário.
 - **JavaScript**: Lógica de recomendação e manipulação do DOM.
-
-## Como Usar
-
-1. Clone este repositório em sua máquina local.
-2. Abra o arquivo `index.html` em seu navegador.
-3. Preencha os campos de preferência e clique em "Enviar" para receber uma recomendação de filme.
