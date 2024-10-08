@@ -20,7 +20,7 @@ The system utilizes a dataset of movies, each with its associated characteristic
 - **CSS**: User interface styling.
 - **JavaScript**: Recommendation logic and DOM manipulation.
 
-# Portuguese
+# Português-Brasil
 
 # Sistema de Recomendação de Filmes com KNN
 
