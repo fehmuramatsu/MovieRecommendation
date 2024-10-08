@@ -1,6 +1,6 @@
 # English
 
-# Movie Recommendation System with KNN
+### Movie Recommendation System with KNN
 
 This project is a movie recommendation system based on the K-Nearest Neighbors (KNN) technique. Developed with HTML, CSS, and JavaScript, the application allows users to input their genre preferences in a form and receive a movie recommendation based on characteristics such as violence, action, romance, and comedy.
 
