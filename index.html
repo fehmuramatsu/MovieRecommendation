@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recomendação de Filmes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>SISTEMA DE RECOMENDAÇÃO DE FILMES</h1>
+      <form id="movie-form">
+        <label for="violence">Digite o grau de violência (0 a 1):</label>
+        <input
+          type="number"
+          id="violence"
+          name="violence"
+          step="0.1"
+          min="0"
+          max="1"
+          required
+        /><br /><br />
+
+        <label for="action">Digite o grau de ação (0 a 1):</label>
+        <input
+          type="number"
+          id="action"
+          name="action"
+          step="0.1"
+          min="0"
+          max="1"
+          required
+        /><br /><br />
+
+        <label for="romance">Digite o grau de romance (0 a 1):</label>
+        <input
+          type="number"
+          id="romance"
+          name="romance"
+          step="0.1"
+          min="0"
+          max="1"
+          required
+        /><br /><br />
+
+        <label for="comedy">Digite o grau de comédia (0 a 1):</label>
+        <input
+          type="number"
+          id="comedy"
+          name="comedy"
+          step="0.1"
+          min="0"
+          max="1"
+          required
+        /><br /><br />
+
+        <button type="submit">ENVIAR</button>
+      </form>
+
+      <div id="recommendation">
+        <h2>Filme Recomendado:</h2>
+        <p id="movie-name">Por favor, selecione suas preferências acima</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
